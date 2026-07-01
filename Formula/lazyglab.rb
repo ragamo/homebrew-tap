@@ -1,28 +1,28 @@
 class Lazyglab < Formula
   desc "TUI for GitLab and GitHub — merge requests and pipelines in your terminal"
   homepage "https://github.com/ragamo/lazyglab"
-  version "0.1.2"
+  version "0.1.3"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/ragamo/lazyglab/releases/download/v0.1.2/lazyglab-aarch64-apple-darwin.tar.gz"
-      sha256 "483df0202b004185424956502a9e5da41f2acf728d4d39d2eccecc3e378cc3c1"
+      url "https://github.com/ragamo/lazyglab/releases/download/v0.1.3/lazyglab-aarch64-apple-darwin.tar.gz"
+      sha256 "fab49a8488e4f0550bfd858dc19e92445958799f71b0af53b4bd9dfb835f8635"
     end
     on_intel do
-      url "https://github.com/ragamo/lazyglab/releases/download/v0.1.2/lazyglab-x86_64-apple-darwin.tar.gz"
-      sha256 "286233be854f243de7489c09928a51251ee03281cf260e91baa0ae29db24f629"
+      url "https://github.com/ragamo/lazyglab/releases/download/v0.1.3/lazyglab-x86_64-apple-darwin.tar.gz"
+      sha256 "37683bb31f56ce4c0445aef7db59488fb723079a7e24dfbe6b4542c6957fbd4a"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/ragamo/lazyglab/releases/download/v0.1.2/lazyglab-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "38b491c32548161dcc1faa3fcbd988fc3a54ed3e5448ac9d79f397a81fe40ab2"
+      url "https://github.com/ragamo/lazyglab/releases/download/v0.1.3/lazyglab-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "624341b79d9db0281ae6bef68791647d94ae4861f9760a89fb06801c4178d05e"
     end
     on_intel do
-      url "https://github.com/ragamo/lazyglab/releases/download/v0.1.2/lazyglab-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "ccaa7e8b7c2f6f0106364a8373fd87cc2bb96451816612ec34b345fe2fc04275"
+      url "https://github.com/ragamo/lazyglab/releases/download/v0.1.3/lazyglab-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "0d1a2e425a6cb1bb32ec8088dbc915be938e336b17823167be2567118fd91bb9"
     end
   end
 
