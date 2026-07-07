@@ -1,28 +1,28 @@
 class Kojira < Formula
   desc "A TUI wrapper for Jira — backlog, boards, and more"
   homepage "https://github.com/ragamo/kojira"
-  version "0.1.5"
+  version "0.1.6"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/ragamo/kojira/releases/download/v0.1.5/kojira-aarch64-apple-darwin.tar.gz"
-      sha256 "2fb6ed46af722ed1c293fe7a905c8ff627426239058e51fed45a207c3a6bb8cd"
+      url "https://github.com/ragamo/kojira/releases/download/v0.1.6/kojira-aarch64-apple-darwin.tar.gz"
+      sha256 "824a849131d2e17317e3566e9a8867e44dadde2c6dcb071b8bb6506491ca0c9e"
     end
     on_intel do
-      url "https://github.com/ragamo/kojira/releases/download/v0.1.5/kojira-x86_64-apple-darwin.tar.gz"
-      sha256 "87f22f1ac1246b817a063b4d5e5b4b953128ee55f70a15fa3e6b14cf45d91e4b"
+      url "https://github.com/ragamo/kojira/releases/download/v0.1.6/kojira-x86_64-apple-darwin.tar.gz"
+      sha256 "84163297ffce27ccb7640b28f9aa7fe32918bece2f82b3277dc346026399e87b"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/ragamo/kojira/releases/download/v0.1.5/kojira-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "cdcd6a39759de397d94725d7db184cbbd67cebab77f2dc02ed3a77814d5689e7"
+      url "https://github.com/ragamo/kojira/releases/download/v0.1.6/kojira-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "c8233653dbed7cb4fe00bf93b880ccf81b0b93dffedece5649b3a35f383b3a44"
     end
     on_intel do
-      url "https://github.com/ragamo/kojira/releases/download/v0.1.5/kojira-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "a858889a1c74127ab933555964647e4d7ec3ec3d2d0439d602816220d8a25477"
+      url "https://github.com/ragamo/kojira/releases/download/v0.1.6/kojira-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "ee3b7ca53b0ba17baf81b9ad50df42bbaec066b7f05567a87850dbce70efb15e"
     end
   end
 
