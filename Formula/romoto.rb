@@ -1,28 +1,28 @@
 class Romoto < Formula
   desc "Share a terminal session over SSH"
   homepage "https://github.com/ragamo/romoto"
-  version "0.2.3"
+  version "0.2.4"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/ragamo/romoto/releases/download/v0.2.3/romoto-aarch64-apple-darwin.tar.gz"
-      sha256 "d34107a73b07ce7d611d397b2848bc668f6b3867584df1c38e0795e1d8769aaf"
+      url "https://github.com/ragamo/romoto/releases/download/v0.2.4/romoto-aarch64-apple-darwin.tar.gz"
+      sha256 "b435c0771f811abbe9f4e1d6a3900473ab9757cb4580c3936d34576ca998853b"
     end
     on_intel do
-      url "https://github.com/ragamo/romoto/releases/download/v0.2.3/romoto-x86_64-apple-darwin.tar.gz"
-      sha256 "0b7d36a43844e78f075cd8e85a4557b1607a7e0f6667bab87d51c5336940188b"
+      url "https://github.com/ragamo/romoto/releases/download/v0.2.4/romoto-x86_64-apple-darwin.tar.gz"
+      sha256 "33e6c7a10c5912aa711e782046b0d35a2347162e5ce33f9d47e234d78e7eb790"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/ragamo/romoto/releases/download/v0.2.3/romoto-aarch64-unknown-linux-musl.tar.gz"
-      sha256 "b16f0369e1158a651111e0981788a96e0e44671662a77d3d966b9d375a8ca0f3"
+      url "https://github.com/ragamo/romoto/releases/download/v0.2.4/romoto-aarch64-unknown-linux-musl.tar.gz"
+      sha256 "37313f05f22f5485e004261d7130de873fee7f42b70095e0eee21e96c74f4d85"
     end
     on_intel do
-      url "https://github.com/ragamo/romoto/releases/download/v0.2.3/romoto-x86_64-unknown-linux-musl.tar.gz"
-      sha256 "dc34bb4d353203619c9ba58207b023b75d2632bf8bd5fa8c6e721aa4e86230fd"
+      url "https://github.com/ragamo/romoto/releases/download/v0.2.4/romoto-x86_64-unknown-linux-musl.tar.gz"
+      sha256 "9e66478558cda442e9ae33d9ce8ce3933a872e59e1eda50d6c25a0ce9f6a8948"
     end
   end
 
